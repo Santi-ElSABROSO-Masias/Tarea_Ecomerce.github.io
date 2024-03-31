@@ -143,6 +143,13 @@
 	-ms-transition: opacity 0.3s linear 1.2s;
 	transition: opacity 0.3s linear 1.2s;
 }
+.add-to-cart button {
+    background-image: url('images/thumbs/carrito.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 10px; /* Ajusta el espacio a la izquierda de la imagen */
+}
 .lb-overlay img{
 	/* height: 100%; For Opera max-height does not seem to work */
 	max-height: 100%;
@@ -199,10 +206,4 @@
 x:-o-prefocus, .lb-overlay img {
     height: 100%;
 }
-.add-to-cart-button {
-    background-image: url('images/thumbs/carrito.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-left: 30px; /* Ajusta el espacio a la izquierda de la imagen */
-}
+
