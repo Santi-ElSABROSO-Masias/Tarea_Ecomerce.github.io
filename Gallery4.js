@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const lbAlbum = document.querySelector(".lb-album");
-    for (let i = 1; i <= 20; i++) {
+    for (let i = 1; i <= 9; i++) {
         const listItem = document.createElement("li");
         const anchor = document.createElement("a");
         anchor.setAttribute("href", `#image-${i}`);
