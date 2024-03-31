@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
         closeButton.classList.add("lb-close");
         closeButton.textContent = "x Cerrar";
         const fullImage = document.createElement("img");
-        fullImage.setAttribute("src", `images\full\fullTapizados${i}.jpg`);
+        fullImage.setAttribute("src", `images\full\fullTapizados\${i}.jpg`);
         fullImage.setAttribute("alt", `image${i}`);
         const div = document.createElement("div");
         const h3 = document.createElement("h3");
