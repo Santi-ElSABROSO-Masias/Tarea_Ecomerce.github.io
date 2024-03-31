@@ -10,39 +10,36 @@
         <title>CSS3 Lightbox</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="CSS3 Lightbox - A CSS-only lightbox" />
-        <meta name="keywords" content="css3, lightbox, overlay, effect, images, thumbnails, navigate" />
+        <meta name="keywords" content="css3, lightbox, overlay, effect, images, thumbnails" />
         <meta name="author" content="Codrops" />
         <link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/style3.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
-    <body>
+	<body id="page">
 		<div class="container">
 			<header>
 				<h1>CSS3 <span>Lightbox</span></h1>
-				<h2>Pasarela de pagos</h2>
+				<h2>Un experimento con HTML5 y CSS3</h2>
 				<p class="codrops-demos">
-					
-					<a class="current-demo" href="index copy.html">Volver al catalogo Principal</a>
+					<a class="current-demo" href="indexRopa.html">Moda Textil</a>
+					<a class="current-demo" href="indexMarcos.html">Marcos Para Cuadros</a>
+					<a class="current-demo" href="indexPinturas.html">Pinturas</a>
+					<a class="current-demo" href="indexCeramicas2.html">Ceramicas</a>
+					<a href="IndexPagos.html"><img src="images/thumbs/carrito.png" alt=""> Carrito de Compras </a>
 				</p>
 			</header>
+			<head>
+				<script src="Gallery.js"></script>
+			</head>
 			<section>
-				<h3>Detalles del Producto</h3>
-				<p>Producto: Camiseta Universitaria</p>
-				<p>Precio: $20</p>
-				<button id="checkout-button">Pagar $20</button>
+				<ul class="lb-album">
+					<!-- Las fotos se generarán aquí -->
+				</ul>
 			</section>
-			<footer>
-				<p>&copy; 2024 Pasarela de Pago Ficticia</p>
-			</footer>
 		</div>
-	
-		<!-- Script para simular el proceso de pago -->
-		<script>
-			document.getElementById('checkout-button').addEventListener('click', function() {
-				// Simular proceso de pago exitoso
-				alert('Pago exitoso. Gracias por su compra.');
-			});
-		</script>
+		
+
 	</body>
+    
 </html>
