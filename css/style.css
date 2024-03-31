@@ -212,4 +212,34 @@ x:-o-prefocus, .lb-overlay img {
     width: 30px; /* Ancho de la imagen del carrito */
     height: 30px; /* Altura de la imagen del carrito */
 }
+.lb-nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.lb-prev, .lb-next {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    pointer-events: auto;
+}
+
+.lb-prev {
+    margin-left: 20px;
+}
+
+.lb-next {
+    margin-right: 20px;
+}
 
