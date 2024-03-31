@@ -199,3 +199,10 @@
 x:-o-prefocus, .lb-overlay img {
     height: 100%;
 }
+.add-to-cart-button {
+    background-image: url('images/thumbs/carrito.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 30px; /* Ajusta el espacio a la izquierda de la imagen */
+}
