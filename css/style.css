@@ -240,6 +240,26 @@ x:-o-prefocus, .lb-overlay img {
 }
 
 .lb-next {
-    margin-right: 20px;
+    margin-right: 10px;
+}
+.lb-album li {
+    margin: 8px; /* Margen uniforme */
+}
+
+.lb-album {
+    /* Ajusta el tamaño del contenedor de la imagen */
+    max-width: 90vw; /* Ajusta el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.full-image {
+    max-width: 90%; /* Ajusta el tamaño máximo de la imagen */
+    max-height: 90vh; /* Ajusta la altura máxima de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+}
+.thumbnail-image {
+    width: 160px; /* Ancho fijo para las miniaturas */
+    height: 150px; /* Alto fijo para las miniaturas */
+    object-fit: cover; /* Para que las imágenes se ajusten al tamaño sin deformarse */
 }
 

@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
         anchor.appendChild(image);
         anchor.appendChild(span);
         listItem.appendChild(anchor);
+        image.setAttribute("class", "thumbnail-image");
+
         
         const lbOverlay = document.createElement("div");
         lbOverlay.classList.add("lb-overlay");

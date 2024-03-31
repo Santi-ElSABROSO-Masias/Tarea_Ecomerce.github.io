@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
         anchor.appendChild(image);
         anchor.appendChild(span);
         listItem.appendChild(anchor);
+        image.setAttribute("class", "thumbnail-image");
+
+        
         
         const lbOverlay = document.createElement("div");
         lbOverlay.classList.add("lb-overlay");
@@ -23,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const fullImage = document.createElement("img");
         fullImage.setAttribute("src", `images/full/fullCeramicas/${i}.jpg`);
         fullImage.setAttribute("alt", `image${i}`);
+        fullImage.classList.add("full-image"); // Agrega una clase para aplicar estilos
         const div = document.createElement("div");
         const h3 = document.createElement("h3");
         h3.textContent = `Photo ${i}`;
