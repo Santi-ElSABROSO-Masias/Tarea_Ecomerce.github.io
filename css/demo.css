@@ -194,12 +194,4 @@ p.codrops-demos a.current-demo:hover{
 		top: auto;
 		left: auto;
 	}
-	
 }
-.add-to-cart-button {
-    background-image: url('images/thumbs/carrito.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-left: 30px; /* Ajusta el espacio a la izquierda de la imagen */
-}	
