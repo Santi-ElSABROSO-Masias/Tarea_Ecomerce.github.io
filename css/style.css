@@ -143,7 +143,7 @@
 	-ms-transition: opacity 0.3s linear 1.2s;
 	transition: opacity 0.3s linear 1.2s;
 }
-.add-to-cart button {
+.add-to-cart-button {
     background-image: url('images/thumbs/carrito.jpg');
     background-size: contain;
     background-repeat: no-repeat;
